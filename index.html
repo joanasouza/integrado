@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Apoia Docente</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div style="min-height:100vh; overflow-x:hidden;">
+
+  <!-- NAV -->
+  <nav id="main-nav" style="position:sticky; top:0; z-index:200; background:transparent; box-shadow:none; backdrop-filter:none; transition:background .35s, box-shadow .35s;">
+    <div style="max-width:1160px; margin:0 auto; padding:0 40px; height:68px; display:flex; align-items:center; gap:32px;" class="mob-px">
+      <a href="#" style="display:flex; align-items:center; gap:10px; text-decoration:none; flex:none;">
+        <div style="width:38px; height:38px; border-radius:11px; background:#FAFAFA; display:flex; align-items:center; justify-content:center; overflow:hidden;">
+         <img src="uploads/logoA.png" alt="Apoia logo letra A com quebra-cabeça" width="38px" height="38px">
+        </div>
+        <span style="font-weight:700; font-size:19px; color:#1a1a2e; letter-spacing:-.2px;">Apoia Docente</span>
+      </a>
+      <div class="mob-hide" style="display:flex; gap:28px; flex:1; justify-content:center;">
+        <a href="#como-funciona" style="font-size:16px; color:#5a6270; text-decoration:none; font-weight:500;">Como funciona</a>
+        <a href="#recursos" style="font-size:16px; color:#5a6270; text-decoration:none; font-weight:500;">Recursos</a>
+        <a href="#neurodivergencia" style="font-size:16px; color:#5a6270; text-decoration:none; font-weight:500;">Sobre inclusão</a>
+        <a href="#faq" style="font-size:16px; color:#5a6270; text-decoration:none; font-weight:500;">Dúvidas</a>
+      </div>
+      <a href="#lista-espera" class="waitlist__button" ">Lista de espera</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class=" hero mob-px">
+    <div style="max-width:1160px; margin:0 auto; display:flex; align-items:center; gap:56px;" class="mob-col">
+
+      <!-- Left copy -->
+      <div style="flex:1; min-width:280px;" class="mob-center">
+        <div style="display:inline-flex; align-items:center; gap:8px; padding:6px 14px; background:#e8f0fe; border-radius:20px; margin-bottom:22px;">
+          <div style="width:7px; height:7px; border-radius:50%; background:#0974F7;"></div>
+          <span style="font-size:14px; color:#0974F7; font-weight:600;">Para professores da rede pública</span>
+        </div>
+        <h1 style="font-size:clamp(34px,4.5vw,58px); font-weight:700; line-height:1.08; color:#1a1a2e; margin-bottom:20px;">
+          Menos tempo<br>preparando, mais<br>tempo <span style="color:#0974F7;">ensinando</span>
+        </h1>
+        <p style="font-size:18px; color:#5a6270; line-height:1.6; margin-bottom:34px; max-width:480px;">
+          A plataforma que ajuda professores a criar e adaptar atividades inclusivas para alunos neurodivergentes — de forma rápida, simples e gratuita.
+        </p>
+        <div style="display:flex; flex-direction:column; gap:14px; align-items:flex-start;" class="mob-center">
+          <a href="#lista-espera" style="padding:16px 34px; background:#EFA540; color:#fff; border-radius:13px; font-weight:700; font-size:18px; text-decoration:none; display:inline-block; box-shadow:0 6px 24px rgba(239,165,64,.35);">
+            Entrar na lista de espera →
+          </a>
+          <span style="font-size:14px; color:#aab4c4; font-weight:500;">Gratuito · Sem cartão · Para o ensino fundamental</span>
+        </div>
+      </div>
+
+      <!-- Mascot -->
+      <div style="flex:0 0 360px; display:flex; align-items:center; justify-content:center;" class="mob-full">
+        <div style="position:relative; width:320px; height:320px;">
+          <div style="position:absolute; inset:0; border-radius:50%; background:linear-gradient(135deg,#dbeafe,#bfdbfe);"></div>
+          <div style="position:absolute; top:16px; right:16px; width:18px; height:18px; border-radius:50%; background:#80D423; opacity:.8;"></div>
+          <div style="position:absolute; bottom:28px; left:20px; width:12px; height:12px; border-radius:50%; background:#EFA540;"></div>
+          <div style="position:absolute; top:50%; right:0; width:10px; height:10px; border-radius:50%; background:#CC85EE;"></div>
+          <div style="position:absolute; inset:0; display:flex; align-items:center; justify-content:center;">
+            <img src="uploads/Group 18.png" style="animation:float 3.5s ease-in-out infinite;" alt="Mascote Poio letra A em formato de quebra-cabeça sorrindo e apontado">
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Trust bar -->
+    <div style="max-width:1160px; margin:52px auto 0; border-top:1px solid #e0eaf8; padding-top:28px; display:flex; gap:32px; justify-content:center; flex-wrap:wrap;">
+      <div style="display:flex; align-items:center; gap:9px;">
+        <div style="width:26px; height:26px; border-radius:8px; background:#e8f0fe; display:flex; align-items:center; justify-content:center; color:#0974F7; font-size:14px; font-weight:700;">✓</div>
+        <span style="font-size:15px; color:#5a6270; font-weight:500;">100% gratuito</span>
+      </div>
+      <div style="display:flex; align-items:center; gap:9px;">
+        <div style="width:26px; height:26px; border-radius:8px; background:#e8f0fe; display:flex; align-items:center; justify-content:center; color:#0974F7; font-size:14px; font-weight:700;">✓</div>
+        <span style="font-size:15px; color:#5a6270; font-weight:500;">Sem conhecimento técnico</span>
+      </div>
+      <div style="display:flex; align-items:center; gap:9px;">
+        <div style="width:26px; height:26px; border-radius:8px; background:#e8f0fe; display:flex; align-items:center; justify-content:center; color:#0974F7; font-size:14px; font-weight:700;">✓</div>
+        <span style="font-size:15px; color:#5a6270; font-weight:500;">Funciona no celular</span>
+      </div>
+      <div style="display:flex; align-items:center; gap:9px;">
+        <div style="width:26px; height:26px; border-radius:8px; background:#e8f0fe; display:flex; align-items:center; justify-content:center; color:#0974F7; font-size:14px; font-weight:700;">✓</div>
+        <span style="font-size:15px; color:#5a6270; font-weight:500;">+500 atividades prontas</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMO FUNCIONA -->
+  <section id="como-funciona" style="padding:88px 40px; background:#ffffff;" class="mob-px">
+    <div style="max-width:1160px; margin:0 auto;">
+      <div style="text-align:center; margin-bottom:60px;">
+        <div style="display:inline-flex; padding:5px 15px; background:#e8f8d4; border-radius:20px; margin-bottom:14px;">
+          <span style="font-size:14px; color:#4e8c10; font-weight:600;">Simples assim</span>
+        </div>
+        <h2 style="font-size:clamp(28px,3vw,42px); font-weight:700; color:#1a1a2e; margin-bottom:14px;">Como funciona</h2>
+        <p style="font-size:18px; color:#5a6270; max-width:520px; margin:0 auto;">Em 3 passos você já tem atividades adaptadas para a sua turma</p>
+      </div>
+
+      <div style="display:flex; gap:20px; align-items:stretch;" class="mob-col">
+        <!-- Step 1 -->
+        <div style="flex:1; background:#f0f6ff; border-radius:22px; padding:38px 30px 32px; display:flex; flex-direction:column; gap:16px;">
+          <div style="width:52px; height:52px; border-radius:15px; background:#0974F7; display:flex; align-items:center; justify-content:center; font-weight:700; font-size:24px; color:#fff;">1</div>
+          <h3 style="font-size:21px; font-weight:700; color:#1a1a2e;">Descreva sua turma</h3>
+          <p style="font-size:16px; color:#5a6270; line-height:1.6; flex:1;">Informe as necessidades dos seus alunos com poucas perguntas simples. Sem jargões, sem formulários complexos.</p>
+          <div style="height:90px; border-radius:14px; background:repeating-linear-gradient(45deg,#dbeafe 0,#dbeafe 4px,#eff6ff 4px,#eff6ff 14px); display:flex; align-items:center; justify-content:center;">
+            <span style="font-size:32px;">📝</span>
+          </div>
+        </div>
+
+        <!-- Arrow -->
+        <div class="mob-hide" style="display:flex; align-items:center; padding:0 4px; color:#cbd5e8; font-size:30px; font-weight:300;">›</div>
+
+        <!-- Step 2 -->
+        <div style="flex:1; background:#f4fce8; border-radius:22px; padding:38px 30px 32px; display:flex; flex-direction:column; gap:16px;">
+          <div style="width:52px; height:52px; border-radius:15px; background:#80D423; display:flex; align-items:center; justify-content:center; font-weight:700; font-size:24px; color:#fff;">2</div>
+          <h3 style="font-size:21px; font-weight:700; color:#1a1a2e;">Receba atividades prontas</h3>
+          <p style="font-size:16px; color:#5a6270; line-height:1.6; flex:1;">A plataforma seleciona e adapta atividades do nosso banco de +500 recursos validados por especialistas em educação inclusiva.</p>
+          <div style="height:90px; border-radius:14px; background:repeating-linear-gradient(45deg,#d1fae5 0,#d1fae5 4px,#f0fdf4 4px,#f0fdf4 14px); display:flex; align-items:center; justify-content:center;">
+            <span style="font-size:32px;">📚</span>
+          </div>
+        </div>
+
+        <!-- Arrow -->
+        <div class="mob-hide" style="display:flex; align-items:center; padding:0 4px; color:#cbd5e8; font-size:30px; font-weight:300;">›</div>
+
+        <!-- Step 3 -->
+        <div style="flex:1; background:#fdf5ff; border-radius:22px; padding:38px 30px 32px; display:flex; flex-direction:column; gap:16px;">
+          <div style="width:52px; height:52px; border-radius:15px; background:#CC85EE; display:flex; align-items:center; justify-content:center; font-weight:700; font-size:24px; color:#fff;">3</div>
+          <h3 style="font-size:21px; font-weight:700; color:#1a1a2e;">Aplique e compartilhe</h3>
+          <p style="font-size:16px; color:#5a6270; line-height:1.6; flex:1;">Use as atividades na sua aula e compartilhe com colegas de toda a escola. A inclusão se fortalece em comunidade.</p>
+          <div style="height:90px; border-radius:14px; background:repeating-linear-gradient(45deg,#ede9fe 0,#ede9fe 4px,#faf5ff 4px,#faf5ff 14px); display:flex; align-items:center; justify-content:center;">
+            <span style="font-size:32px;">🤝</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RECURSOS -->
+  <section id="recursos" style="padding:88px 40px; background:#f0f6ff;" class="mob-px">
+    <div style="max-width:1160px; margin:0 auto;">
+      <div style="text-align:center; margin-bottom:60px;">
+        <div style="display:inline-flex; padding:5px 15px; background:#dbeafe; border-radius:20px; margin-bottom:14px;">
+          <span style="font-size:14px; color:#0974F7; font-weight:600;">Funcionalidades</span>
+        </div>
+        <h2 style="font-size:clamp(28px,3vw,42px); font-weight:700; color:#1a1a2e; margin-bottom:14px;">Tudo que você precisa para incluir</h2>
+        <p style="font-size:18px; color:#5a6270; max-width:540px; margin:0 auto;">Ferramentas pensadas para professoras reais, com tempo limitado e turmas heterogêneas</p>
+      </div>
+
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:24px;" class="mob-grid1">
+        <div style="background:#fff; border-radius:22px; padding:34px 28px; box-shadow:0 2px 20px rgba(9,116,247,.07);">
+          <div style="width:54px; height:54px; border-radius:16px; background:#e8f0fe; display:flex; align-items:center; justify-content:center; margin-bottom:20px; font-size:26px;">📖</div>
+          <h3 style="font-size:20px; font-weight:700; color:#1a1a2e; margin-bottom:10px;">Banco de atividades</h3>
+          <p style="font-size:15px; color:#5a6270; line-height:1.6;">Mais de 500 atividades organizadas por disciplina, série e tipo de neurodivergência. Filtre e encontre em segundos.</p>
+        </div>
+        <div style="background:#fff; border-radius:22px; padding:34px 28px; box-shadow:0 2px 20px rgba(9,116,247,.07);">
+          <div style="width:54px; height:54px; border-radius:16px; background:#e4f5c0; display:flex; align-items:center; justify-content:center; margin-bottom:20px; font-size:26px;">✨</div>
+          <h3 style="font-size:20px; font-weight:700; color:#1a1a2e; margin-bottom:10px;">Adaptação inteligente</h3>
+          <p style="font-size:15px; color:#5a6270; line-height:1.6;">Selecione o perfil do aluno e a plataforma adapta automaticamente — fontes, linguagem e estrutura visual.</p>
+        </div>
+        <div style="background:#fff; border-radius:22px; padding:34px 28px; box-shadow:0 2px 20px rgba(9,116,247,.07);">
+          <div style="width:54px; height:54px; border-radius:16px; background:#f0dcfa; display:flex; align-items:center; justify-content:center; margin-bottom:20px; font-size:26px;">📋</div>
+          <h3 style="font-size:20px; font-weight:700; color:#1a1a2e; margin-bottom:10px;">Planejador pedagógico</h3>
+          <p style="font-size:15px; color:#5a6270; line-height:1.6;">Monte planos de aula inclusivos em minutos. Salve, edite e exporte em PDF para entregar à coordenação.</p>
+        </div>
+        <div style="background:#fff; border-radius:22px; padding:34px 28px; box-shadow:0 2px 20px rgba(9,116,247,.07);">
+          <div style="width:54px; height:54px; border-radius:16px; background:#fde8c5; display:flex; align-items:center; justify-content:center; margin-bottom:20px; font-size:26px;">👩‍🏫</div>
+          <h3 style="font-size:20px; font-weight:700; color:#1a1a2e; margin-bottom:10px;">Comunidade docente</h3>
+          <p style="font-size:15px; color:#5a6270; line-height:1.6;">Troque materiais e experiências com professores de todo o Brasil que enfrentam os mesmos desafios que você.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFÍCIOS (blue band) -->
+  <section style="padding:88px 40px; background:#0974F7;" class="mob-px">
+    <div style="max-width:1160px; margin:0 auto;">
+      <div style="text-align:center; margin-bottom:56px;">
+        <h2 style="font-size:clamp(28px,3vw,42px); font-weight:700; color:#fff; margin-bottom:14px;">Por que professores vão amar</h2>
+        <p style="font-size:18px; color:rgba(255,255,255,.75); max-width:500px; margin:0 auto;">Menos burocracia, mais inclusão real dentro da sala de aula</p>
+      </div>
+
+      <!-- Stats row -->
+      <div style="display:flex; gap:20px; margin-bottom:44px; flex-wrap:wrap; justify-content:center;">
+        <div style="flex:1; min-width:190px; background:rgba(255,255,255,.12); border-radius:20px; padding:32px 24px; text-align:center;">
+          <div style="font-size:clamp(44px,5vw,64px); font-weight:700; color:#fff; line-height:1;">2h</div>
+          <div style="font-size:16px; color:rgba(255,255,255,.8); margin-top:8px; line-height:1.4;">economizadas<br>por semana</div>
+        </div>
+        <div style="flex:1; min-width:190px; background:rgba(255,255,255,.12); border-radius:20px; padding:32px 24px; text-align:center;">
+          <div style="font-size:clamp(44px,5vw,64px); font-weight:700; color:#fff; line-height:1;">+500</div>
+          <div style="font-size:16px; color:rgba(255,255,255,.8); margin-top:8px; line-height:1.4;">atividades<br>inclusivas prontas</div>
+        </div>
+        <div style="flex:1; min-width:190px; background:rgba(255,255,255,.12); border-radius:20px; padding:32px 24px; text-align:center;">
+          <div style="font-size:clamp(44px,5vw,64px); font-weight:700; color:#80D423; line-height:1;">100%</div>
+          <div style="font-size:16px; color:rgba(255,255,255,.8); margin-top:8px; line-height:1.4;">gratuito para<br>professores públicos</div>
+        </div>
+        <div style="flex:1; min-width:190px; background:rgba(255,255,255,.12); border-radius:20px; padding:32px 24px; text-align:center;">
+          <div style="font-size:clamp(44px,5vw,64px); font-weight:700; color:#fff; line-height:1;">3</div>
+          <div style="font-size:16px; color:rgba(255,255,255,.8); margin-top:8px; line-height:1.4;">cliques para<br>sua atividade</div>
+        </div>
+      </div>
+
+      <!-- Testimonial -->
+      <div style="background:#fff; border-radius:22px; padding:38px 40px; max-width:660px; margin:0 auto;">
+        <div style="color:#EFA540; font-size:22px; letter-spacing:2px; margin-bottom:16px;">★★★★★</div>
+        <p style="font-size:18px; color:#1a1a2e; line-height:1.65; font-style:italic; margin-bottom:24px;">"Finalmente uma ferramenta que entende a minha realidade. Tenho 38 alunos, sem auxiliar. Precisava de algo que me ajudasse sem me fazer perder horas aprendendo o sistema."</p>
+        <div style="display:flex; align-items:center; gap:14px;">
+          <div style="width:46px; height:46px; border-radius:50%; background:#e8f0fe; display:flex; align-items:center; justify-content:center; font-weight:700; color:#0974F7; font-size:20px; flex:none;">M</div>
+          <div>
+            <div style="font-weight:700; font-size:16px; color:#1a1a2e;">Maria Aparecida</div>
+            <div style="font-size:14px; color:#5a6270;">Professora de Português · 22 anos de sala de aula</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEURODIVERGÊNCIA -->
+  <section id="neurodivergencia" style="padding:88px 40px; background:#fdf5ff;" class="mob-px">
+    <div style="max-width:1160px; margin:0 auto;">
+
+      <!-- Intro block -->
+      <div style="display:flex; gap:64px; align-items:flex-start; margin-bottom:60px;" class="mob-col">
+        <div style="flex:1; min-width:280px;">
+          <div style="display:inline-flex; padding:5px 15px; background:#f0dcfa; border-radius:20px; margin-bottom:16px;">
+            <span style="font-size:14px; color:#9035c0; font-weight:600;">Formação continuada</span>
+          </div>
+          <h2 style="font-size:clamp(26px,3vw,40px); font-weight:700; color:#1a1a2e; margin-bottom:18px; line-height:1.15;">Entender a neurodivergência é o primeiro passo para incluir</h2>
+          <p style="font-size:17px; color:#5a6270; line-height:1.7; margin-bottom:16px;">Muitos professores relatam que nunca receberam formação adequada para trabalhar com alunos neurodivergentes. Se você se sente assim, saiba que <strong style="color:#1a1a2e;">não está sozinha</strong> — e não é culpa sua.</p>
+          <p style="font-size:17px; color:#5a6270; line-height:1.7;">O Apoia Docente oferece não só atividades, mas também orientações práticas e contextualizadas que apoiam seu desenvolvimento profissional em educação inclusiva, sem exigir horas de estudo.</p>
+        </div>
+
+        <!-- Data card -->
+        <div style="flex:0 0 320px; background:#fff; border-radius:22px; padding:30px; box-shadow:0 4px 28px rgba(170,80,220,.12);" class="mob-full">
+          <div style="display:flex; align-items:center; gap:12px; margin-bottom:20px; padding-bottom:18px; border-bottom:1px solid #f0e5fb;">
+            <div style="width:42px; height:42px; border-radius:13px; background:#f0dcfa; display:flex; align-items:center; justify-content:center; font-weight:700; color:#9035c0; font-size:20px; flex:none;">!</div>
+            <div>
+              <div style="font-weight:700; font-size:16px; color:#1a1a2e;">Você sabia?</div>
+              <div style="font-size:13px; color:#5a6270;">Dados do contexto educacional</div>
+            </div>
+          </div>
+          <div style="display:flex; flex-direction:column; gap:16px;">
+            <div style="display:flex; gap:12px; align-items:flex-start;">
+              <div style="width:9px; height:9px; border-radius:50%; background:#CC85EE; flex:none; margin-top:7px;"></div>
+              <p style="font-size:15px; color:#5a6270; line-height:1.5;"><strong style="color:#1a1a2e;">1 em cada 5</strong> estudantes tem alguma forma de neurodivergência</p>
+            </div>
+            <div style="display:flex; gap:12px; align-items:flex-start;">
+              <div style="width:9px; height:9px; border-radius:50%; background:#CC85EE; flex:none; margin-top:7px;"></div>
+              <p style="font-size:15px; color:#5a6270; line-height:1.5;"><strong style="color:#1a1a2e;">72%</strong> dos professores afirmam não ter suporte adequado da escola para trabalhar com a inclusão</p>
+            </div>
+            <div style="display:flex; gap:12px; align-items:flex-start;">
+              <div style="width:9px; height:9px; border-radius:50%; background:#CC85EE; flex:none; margin-top:7px;"></div>
+              <p style="font-size:15px; color:#5a6270; line-height:1.5;"><strong style="color:#1a1a2e;">Mais de 2 horas</strong> gastas por semana buscando e adaptando materiais inclusivos</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Condition cards -->
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:20px;" class="mob-grid1">
+        <div style="background:#fff; border-radius:20px; padding:28px 26px; border-top:4px solid #0974F7; box-shadow:0 2px 16px rgba(0,0,0,.05);">
+          <div style="font-weight:700; font-size:20px; color:#0974F7; margin-bottom:6px;">TDAH</div>
+          <div style="font-size:13px; color:#9035c0; font-weight:600; margin-bottom:14px;">Transtorno do Déficit de Atenção</div>
+          <p style="font-size:14px; color:#5a6270; line-height:1.6;">Afeta foco, organização e controle de impulsos. Presente em 5–7% dos estudantes. Exige atividades curtas, visuais e com instruções claras e diretas.</p>
+        </div>
+        <div style="background:#fff; border-radius:20px; padding:28px 26px; border-top:4px solid #80D423; box-shadow:0 2px 16px rgba(0,0,0,.05);">
+          <div style="font-weight:700; font-size:20px; color:#4e8c10; margin-bottom:6px;">Dislexia</div>
+          <div style="font-size:13px; color:#9035c0; font-weight:600; margin-bottom:14px;">Dificuldade de leitura e escrita</div>
+          <p style="font-size:14px; color:#5a6270; line-height:1.6;">Não afeta a inteligência. Exige fontes adequadas, espaçamento maior e abordagens multissensoriais para leitura e produção de texto.</p>
+        </div>
+        <div style="background:#fff; border-radius:20px; padding:28px 26px; border-top:4px solid #CC85EE; box-shadow:0 2px 16px rgba(0,0,0,.05);">
+          <div style="font-weight:700; font-size:20px; color:#9035c0; margin-bottom:6px;">TEA</div>
+          <div style="font-size:13px; color:#9035c0; font-weight:600; margin-bottom:14px;">Transtorno do Espectro Autista</div>
+          <p style="font-size:14px; color:#5a6270; line-height:1.6;">Diversidade no processamento sensorial e na comunicação social. Requer rotinas estruturadas, materiais visuais e previsibilidade nas atividades.</p>
+        </div>
+        <div style="background:#fff; border-radius:20px; padding:28px 26px; border-top:4px solid #EFA540; box-shadow:0 2px 16px rgba(0,0,0,.05);">
+          <div style="font-weight:700; font-size:20px; color:#b86c10; margin-bottom:6px;">Discalculia</div>
+          <div style="font-size:13px; color:#9035c0; font-weight:600; margin-bottom:14px;">Dificuldade com raciocínio matemático</div>
+          <p style="font-size:14px; color:#5a6270; line-height:1.6;">Afeta 3–7% dos estudantes. Precisa de abordagens concretas, manipulativos e representações visuais para conceitos numéricos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" style="padding:88px 40px; background:#f0f6ff;" class="mob-px">
+    <div style="max-width:740px; margin:0 auto;">
+      <div style="text-align:center; margin-bottom:56px;">
+        <div style="display:inline-flex; padding:5px 15px; background:#dbeafe; border-radius:20px; margin-bottom:14px;">
+          <span style="font-size:14px; color:#0974F7; font-weight:600;">Dúvidas</span>
+        </div>
+        <h2 style="font-size:clamp(28px,3vw,42px); font-weight:700; color:#1a1a2e;">Perguntas frequentes</h2>
+      </div>
+
+      <div style="display:flex; flex-direction:column; gap:12px;" id="faq-list">
+
+        <div class="faq-item" style="background:#fff; border-radius:18px; overflow:hidden; box-shadow:0 2px 14px rgba(9,116,247,.06);">
+          <button class="faq-btn" data-index="0" style="width:100%; padding:22px 26px; background:none; border:none; cursor:pointer; display:flex; justify-content:space-between; align-items:center; gap:16px; text-align:left; font-family:inherit;">
+            <span style="font-weight:600; font-size:17px; color:#1a1a2e;">A plataforma é gratuita?</span>
+            <span class="faq-sign" style="font-size:26px; color:#0974F7; flex:none; line-height:1; font-weight:400;">+</span>
+          </button>
+          <div class="faq-answer" style="display:none; padding:0 26px 22px; font-size:16px; color:#5a6270; line-height:1.7; border-top:1px solid #f0f0f0; padding-top:16px;">Sim, o Apoia Docente é 100% gratuito para professores da rede pública. Nosso objetivo é democratizar o acesso à educação inclusiva sem criar mais uma barreira financeira para quem já tem tantos desafios.</div>
+        </div>
+
+        <div class="faq-item" style="background:#fff; border-radius:18px; overflow:hidden; box-shadow:0 2px 14px rgba(9,116,247,.06);">
+          <button class="faq-btn" data-index="1" style="width:100%; padding:22px 26px; background:none; border:none; cursor:pointer; display:flex; justify-content:space-between; align-items:center; gap:16px; text-align:left; font-family:inherit;">
+            <span style="font-weight:600; font-size:17px; color:#1a1a2e;">Preciso saber usar tecnologia?</span>
+            <span class="faq-sign" style="font-size:26px; color:#0974F7; flex:none; line-height:1; font-weight:400;">+</span>
+          </button>
+          <div class="faq-answer" style="display:none; padding:0 26px 22px; font-size:16px; color:#5a6270; line-height:1.7; border-top:1px solid #f0f0f0; padding-top:16px;">Não! A plataforma foi desenvolvida pensando em professoras que não têm tempo para aprender ferramentas complexas. Se você usa WhatsApp, você consegue usar o Apoia Docente. Em poucos cliques você encontra, adapta e salva suas atividades.</div>
+        </div>
+
+        <div class="faq-item" style="background:#fff; border-radius:18px; overflow:hidden; box-shadow:0 2px 14px rgba(9,116,247,.06);">
+          <button class="faq-btn" data-index="2" style="width:100%; padding:22px 26px; background:none; border:none; cursor:pointer; display:flex; justify-content:space-between; align-items:center; gap:16px; text-align:left; font-family:inherit;">
+            <span style="font-weight:600; font-size:17px; color:#1a1a2e;">Quais perfis de alunos são atendidos?</span>
+            <span class="faq-sign" style="font-size:26px; color:#0974F7; flex:none; line-height:1; font-weight:400;">+</span>
+          </button>
+          <div class="faq-answer" style="display:none; padding:0 26px 22px; font-size:16px; color:#5a6270; line-height:1.7; border-top:1px solid #f0f0f0; padding-top:16px;">O Apoia Docente oferece recursos para alunos com TDAH, Dislexia, Transtorno do Espectro Autista (TEA), Discalculia e outras neurodivergências. O banco de atividades é continuamente ampliado com apoio de especialistas em educação inclusiva.</div>
+        </div>
+
+        <div class="faq-item" style="background:#fff; border-radius:18px; overflow:hidden; box-shadow:0 2px 14px rgba(9,116,247,.06);">
+          <button class="faq-btn" data-index="3" style="width:100%; padding:22px 26px; background:none; border:none; cursor:pointer; display:flex; justify-content:space-between; align-items:center; gap:16px; text-align:left; font-family:inherit;">
+            <span style="font-weight:600; font-size:17px; color:#1a1a2e;">Posso usar no celular?</span>
+            <span class="faq-sign" style="font-size:26px; color:#0974F7; flex:none; line-height:1; font-weight:400;">+</span>
+          </button>
+          <div class="faq-answer" style="display:none; padding:0 26px 22px; font-size:16px; color:#5a6270; line-height:1.7; border-top:1px solid #f0f0f0; padding-top:16px;">Sim! A plataforma é totalmente responsiva e funciona em qualquer dispositivo — computador, tablet ou celular. Sabemos que muitas professoras acessam conteúdo pelo smartphone, especialmente entre uma aula e outra.</div>
+        </div>
+
+        <div class="faq-item" style="background:#fff; border-radius:18px; overflow:hidden; box-shadow:0 2px 14px rgba(9,116,247,.06);">
+          <button class="faq-btn" data-index="4" style="width:100%; padding:22px 26px; background:none; border:none; cursor:pointer; display:flex; justify-content:space-between; align-items:center; gap:16px; text-align:left; font-family:inherit;">
+            <span style="font-weight:600; font-size:17px; color:#1a1a2e;">Como funciona a lista de espera?</span>
+            <span class="faq-sign" style="font-size:26px; color:#0974F7; flex:none; line-height:1; font-weight:400;">+</span>
+          </button>
+          <div class="faq-answer" style="display:none; padding:0 26px 22px; font-size:16px; color:#5a6270; line-height:1.7; border-top:1px solid #f0f0f0; padding-top:16px;">Ao se cadastrar, você garante acesso prioritário assim que lançarmos. Enviaremos um e-mail com todas as instruções para criar sua conta e começar a usar imediatamente — sem complicação.</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section id="lista-espera" style="padding:88px 40px; background:#fff;" class="mob-px">
+    <div style="max-width:680px; margin:0 auto;">
+      <div style="background:linear-gradient(140deg, #0974F7 0%, #2b8af8 100%); border-radius:28px; padding:60px 44px; text-align:center; box-shadow:0 16px 64px rgba(9,116,247,.25);">
+        <div style="font-size:64px; margin-bottom:22px; opacity:.92; animation:float 3.5s ease-in-out infinite; display:inline-block;">🎓</div>
+        <h2 style="font-size:clamp(26px,3vw,40px); font-weight:700; color:#fff; margin-bottom:14px;">Seja uma das primeiras a experimentar</h2>
+        <p style="font-size:17px; color:rgba(255,255,255,.85); margin-bottom:36px; max-width:420px; margin-left:auto; margin-right:auto;">Cadastre seu e-mail e receba acesso antecipado assim que lançarmos. Gratuito, sempre.</p>
+
+        <div id="form-success" style="display:none; background:rgba(255,255,255,.18); border-radius:16px; padding:26px 22px; color:#fff; font-size:19px; font-weight:600; border:1.5px solid rgba(255,255,255,.3);">
+          ✓ Cadastro confirmado! Você receberá um e-mail em breve.
+        </div>
+
+        <div id="form-container">
+          <form id="waitlist-form" style="display:flex; gap:12px; max-width:440px; margin:0 auto 16px;" class="mob-col" novalidate>
+            <input type="email" id="email-input" placeholder="seu@email.com.br" required style="flex:1; padding:16px 18px; border-radius:12px; border:none; font-size:16px; font-family:inherit; outline:none; min-width:0; color:#1a1a2e;">
+            <button type="submit" style="padding:16px 26px; background:#EFA540; color:#fff; border:none; border-radius:12px; font-weight:700; font-size:16px; cursor:pointer; font-family:inherit; white-space:nowrap; box-shadow:0 4px 16px rgba(239,165,64,.4);">Entrar na lista</button>
+          </form>
+          <p style="font-size:13px; color:rgba(255,255,255,.65);">Sem spam. Você pode sair quando quiser.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer style="padding:52px 40px; background:#1a1a2e;" class="mob-px">
+    <div style="max-width:1160px; margin:0 auto; display:flex; gap:52px; flex-wrap:wrap; justify-content:space-between;">
+      <div style="flex:1.6; min-width:240px;">
+        <div style="display:flex; align-items:center; gap:10px; margin-bottom:18px;">
+            <img src="uploads/logoA.png" alt="Apoia logo letra A com quebra-cabeça">
+      
+          <span style="font-weight:700; font-size:17px; color:#fff;">Apoia Docente</span>
+        </div>
+        <p style="font-size:14px; color:rgba(255,255,255,.5); line-height:1.7; max-width:290px;">Uma plataforma que conecta professores a recursos inclusivos, ideias criativas e materiais que transformam a educação todos os dias.</p>
+      </div>
+      <div style="display:flex; flex-direction:column; gap:11px;">
+        <div style="font-weight:700; font-size:12px; color:rgba(255,255,255,.35); text-transform:uppercase; letter-spacing:.1em; margin-bottom:2px;">Plataforma</div>
+        <a href="#como-funciona" style="font-size:15px; color:rgba(255,255,255,.6); text-decoration:none;">Como funciona</a>
+        <a href="#recursos" style="font-size:15px; color:rgba(255,255,255,.6); text-decoration:none;">Recursos</a>
+        <a href="#neurodivergencia" style="font-size:15px; color:rgba(255,255,255,.6); text-decoration:none;">Sobre inclusão</a>
+        <a href="#faq" style="font-size:15px; color:rgba(255,255,255,.6); text-decoration:none;">Dúvidas</a>
+      </div>
+      <div style="display:flex; flex-direction:column; gap:11px;">
+        <div style="font-weight:700; font-size:12px; color:rgba(255,255,255,.35); text-transform:uppercase; letter-spacing:.1em; margin-bottom:2px;">Contato</div>
+        <a href="mailto:contato@apoiadocente.com.br" style="font-size:15px; color:rgba(255,255,255,.6); text-decoration:none;">contato@apoiadocente.com.br</a>
+        <a href="#lista-espera" style="font-size:15px; color:#EFA540; text-decoration:none; font-weight:600;">Lista de espera →</a>
+      </div>
+    </div>
+    <div style="max-width:1160px; margin:36px auto 0; border-top:1px solid rgba(255,255,255,.08); padding-top:24px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;">
+      <span style="font-size:13px; color:rgba(255,255,255,.28);">© 2026 Apoia Docente. Todos os direitos reservados.</span>
+      <span style="font-size:13px; color:rgba(255,255,255,.28);">Feito com carinho para professores brasileiros</span>
+    </div>
+  </footer>
+</div>
+<script src="index.js"></script>
+</body>
+</html>

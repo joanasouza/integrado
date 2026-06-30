@@ -1,0 +1,56 @@
+/* Styles are inlined in index.html to match the design spec */
+ *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Fredoka', system-ui, sans-serif; background: #fff; color: #1a1a2e; }
+    a { transition: opacity .2s; }
+    a:hover { opacity: .8; }
+    button:hover { opacity: .9; }
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-14px); }
+    }
+    @media (max-width: 768px) {
+      .mob-col  { flex-direction: column !important; }
+      .mob-hide { display: none !important; }
+      .mob-full { width: 100% !important; min-width: 0 !important; flex: none !important; }
+      .mob-center { text-align: center !important; align-items: center !important; justify-content: center !important; }
+      .mob-px { padding-left: 24px !important; padding-right: 24px !important; }
+      .mob-grid1 { grid-template-columns: 1fr !important; }
+    }
+
+    :root {
+        --orange-highlight: #EFA540;
+        --pink-highlight: #CC85EE;
+        --white: #fff;
+        --hero-linear-gradient: linear-gradient(160deg, #f0f6ff 0%, #ffffff 65%)
+
+        --font-weight-600: 600;
+    }
+
+    .hero {
+        background: var(--hero-linear-gradient);
+        padding:72px 40px 56px;
+    }
+
+    .waitlist__button {
+        background: var(--orange-highlight);
+        color: var(--white);
+        padding:10px 22px;
+        border-radius:10px; 
+        font-weight:var(--font-weight-600); 
+        font-size:15px; 
+        text-decoration:none; 
+        flex:none; 
+        white-space:nowrap;
+    }
+
+    .footer-logo {
+        width:34px; 
+        height:34px; 
+        border-radius:10px; 
+        display:flex; 
+        align-items:center; 
+        justify-content:center;
+    }
+
+
